@@ -108,14 +108,19 @@ body
       &::-webkit-slider-thumb 
         
         appearance: none
-        width: 10px
-        height: 10px
+        width: 20px
+        height: 20px
+        margin-top: -7px
         
         border-radius: 100px
         background: $bgm
         border:  1px solid rgba(white, 1)
         cursor: pointer
-        transition: background .15s ease-in-out
+        transition: background .3s ease-in-out
+        box-shadow: 0 0 0 3px $bgm
+        &:hover
+          background: rgba(white, 1)
+
 
 
 
